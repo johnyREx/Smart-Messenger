@@ -1,0 +1,9 @@
+node_modules
+.parcel-cache
+parcel-cache
+dist/
+.env
+coverage/
+.vsc
+.DS_Store
+firebaseConfig.ts
