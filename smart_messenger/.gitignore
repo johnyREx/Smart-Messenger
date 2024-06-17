@@ -7,3 +7,4 @@ coverage/
 .vsc
 .DS_Store
 firebaseConfig.ts
+.vercel
