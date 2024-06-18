@@ -17,6 +17,23 @@
 - Edit / Delete Messages
 - Light / Dark mode toggler
 
+### Upcoming Features
+- Voice Messaging
+- Video Calling
+- Message Reactions
+- Message Threads
+- Message Search
+- Push Notifications
+- File Sharing (documents, videos, etc.)
+- Location Sharing
+- Integration with Other Services (calendar, task management)
+- Message Translation
+- Customizable Themes (beyond light/dark mode)
+- Analytics and Insights
+- Read Receipts
+- Mentions and Notifications (@mentions)
+- Moderation Tools
+
 ### Setup Firebase Project
 
 1. **Create Firebase Project**
