@@ -11,6 +11,9 @@ import {
   emailLogin,
 } from "./userSlice";
 
+// Import your logo/image
+import logo from "./smartstudentlogo.png";
+
 interface SignInProps {
   setIsSigningIn: (state: boolean) => void;
   setKeepSignedIn: (state: boolean) => void;
@@ -52,13 +55,22 @@ const SignIn = ({
 
   return (
     <form onSubmit={handleLogin} className="flex flex-col gap-2">
-      <div className="flex flex-col gap-1">
-        <label className="text text-3xl font-semibold text-center">
-          SmartMessenger
-        </label>
-        <label className="text-muted text-sm text-center mb-4">
-          Enter your credentials
-        </label>
+      <div className="relative">
+        {/* added image and styled it round */}
+        <img
+          src={logo}
+          alt="Logo"
+          className="rounded-full h-24 w-24 mx-auto -mt-12"
+        />
+
+        <div className="flex flex-col gap-1">
+          <label className="text text-3xl font-semibold text-center">
+            SmartMessenger
+          </label>
+          <label className="text-muted text-sm text-center mb-4">
+            Enter your credentials
+          </label>
+        </div>
       </div>
 
       <p
@@ -84,25 +96,6 @@ const SignIn = ({
         setState={setPassword}
         placeholder="*********"
       />
-
-      {/* Keep me signed in button is not working yet */}
-      {/* <TwButton
-        onClick={() => setKeepSignedIn(!keepSignedIn)}
-        variant="transparent"
-        type="button"
-        className="flex flex-wrap gap-2 items-center "
-      >
-        <div
-          className={`p-0.5 border-2 text-sm rounded-md bg-transparent duration-300 ${
-            keepSignedIn
-              ? `bg-primary-main text-white border-primary-main `
-              : " text-transparent border-muted-light dark:border-muted-dark"
-          }`}
-        >
-          <AiOutlineCheck />
-        </div>
-        Keep me signed in
-      </TwButton> */}
 
       <TwButton
         type="submit"
