@@ -54,7 +54,7 @@ const SignIn = ({
     <form onSubmit={handleLogin} className="flex flex-col gap-2">
       <div className="flex flex-col gap-1">
         <label className="text text-3xl font-semibold text-center">
-          ACMessenger
+          SmartMessenger
         </label>
         <label className="text-muted text-sm text-center mb-4">
           Enter your credentials

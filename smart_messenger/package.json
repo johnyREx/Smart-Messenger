@@ -1,5 +1,5 @@
 {
-  "name": "Smart-messenger",
+  "name": "Smartmessenger",
   "version": "1.0.0",
   "description": "Fullstack chat application",
   "scripts": {
@@ -54,13 +54,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnyREx/smart_messenger.git"
+    "url": "git+https://github.com/johnyREx/Webstack-Portfolio-Project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnyREx/smart_messenger/issues"
+    "url": "https://github.com/johnyREx/Webstack-Portfolio-Project/issues"
   },
-  "homepage": "https://github.com/johnyREx/smart_messenger#readme"
+  "homepage": "https://github.com/johnyREx/Webstack-Portfolio-Project#readme"
 }
