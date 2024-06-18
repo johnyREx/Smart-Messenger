@@ -4,7 +4,8 @@
 
 ### App Preview
 
-### COMING SOON
+### SMART MESSENGER
+[App review](https://go.screenpal.com/watch/cZ1F6wVNLnw)
 
 ### Features
 
@@ -76,4 +77,4 @@ Support
 You can support this project by leaving a star. Thank you! 😁
 
 Authors
-- [johnyREX](https://github.com/johnyREX)
+- [johnyREx](https://github.com/johnyREx)
