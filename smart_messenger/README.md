@@ -4,7 +4,7 @@
 
 ### App Preview
 
-Smart Messenger Preview Video
+### COMING SOON
 
 ### Features
 
@@ -54,8 +54,9 @@ Step 3: Start the development server.
 
 npm start
 
+
 Support
 You can support this project by leaving a star. Thank you! 😁
 
 Authors
-johnyREX
+- [johnyREX](https://github.com/johnyREX)
