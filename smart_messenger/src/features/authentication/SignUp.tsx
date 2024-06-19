@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+// Sign Up form
 
+import React, { useEffect, useState } from "react";
 import { InputForm, TwButton } from "components";
 import { useAppSelector, useAppDispatch } from "hooks";
 import { getPendingMsg, makePendingMsg } from "toastSlice";

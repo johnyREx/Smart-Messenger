@@ -1,6 +1,8 @@
+// Sign In form
+
 import React, { useEffect, useState } from "react";
 import { AiOutlineCheck } from "react-icons/ai";
-
+import logo from "./smartstudentlogo.png";
 import { InputForm, TwButton } from "components";
 import { useAppDispatch, useAppSelector } from "hooks";
 import { makePendingMsg } from "toastSlice";
@@ -11,8 +13,6 @@ import {
   emailLogin,
 } from "./userSlice";
 
-// Import your logo/image
-import logo from "./smartstudentlogo.png";
 
 interface SignInProps {
   setIsSigningIn: (state: boolean) => void;
