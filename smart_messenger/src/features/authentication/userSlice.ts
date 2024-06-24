@@ -270,3 +270,14 @@ export const getUserState = (state: any) => state.user;
 export const { login, clearUserStateErr } = userSlice.actions;
 
 export default userSlice.reducer;
+
+
+// The userSlice.ts file defines a Redux slice for managing user authentication state within the application. 
+// It utilizes Redux Toolkit's createSlice to create the user slice, which includes an initial state, reducers, and asynchronous thunks for handling side effects. 
+// The initial state includes properties such as the user object, status, and errorMsg, which are used to track the current user, the status of authentication processes, and any error messages.
+// The emailLogin thunk handles user login with email and password by sending a request to the backend and updating the state based on the response. 
+// The googleLogin thunk manages login through Google authentication, following a similar pattern. 
+// The signUp thunk facilitates user registration by sending the user details to the backend and updating the state accordingly.
+// The reducers include clearUserStateErr for clearing error messages and handling logout by resetting the user state. 
+// The getUserState selector retrieves the user state from the Redux store, making it accessible in components. 
+// Overall, userSlice.ts provides a structured approach to handling user authentication state and related side effects, promoting a clear separation of concerns and improving code maintainability.
