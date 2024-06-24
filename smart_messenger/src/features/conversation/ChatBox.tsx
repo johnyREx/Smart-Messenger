@@ -184,3 +184,12 @@ const ChatBox = ({ recipient }: ChatBoxProps) => {
 };
 
 export default ChatBox;
+
+
+// The ChatBox component manages the display and interaction of messages within a conversation.
+// It utilizes useRef to manage scrolling behavior and state hooks like useState to track message data and loading states.
+// The component fetches messages from Firestore using onSnapshot for real-time updates and handles message pagination by loading older messages when the user scrolls to the top.
+// User actions such as scrolling, fetching messages, and marking messages as read are handled efficiently to ensure smooth user experience.
+// Conditional rendering is used to display loading spinners while fetching messages and error messages for empty conversations.
+// It integrates with other components like ChatHeader for displaying recipient information and ChatForm for sending messages.
+// Overall, the ChatBox component provides a responsive and interactive messaging interface within the application.
