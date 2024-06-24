@@ -132,3 +132,12 @@ const SignIn = ({
 };
 
 export default SignIn;
+
+
+// The SignIn Component allows users to log in to the application using their email and password or through Google authentication.
+// It maintains local state for email and password inputs using React's useState Hook.
+// Redux is used for state management, with the useAppSelector hook retrieving the user state and useAppDispatch despatching login actions.
+// The component includes two useEffect hooks: one for clearing user state error when the email or password changes, and another for showing a pending message while the login is in progress.
+// The form displays an error message is there is an error during login and a pending message during the login process.
+// It also provides a button to switch to the SignUp component for users who do not already have an account.
+// Additionally, users can log in via Google by clicking a dedicated button that triggers the googleLogin action. 
