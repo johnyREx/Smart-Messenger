@@ -97,3 +97,13 @@ const AddContactModal = ({
 };
 
 export default AddContactModal;
+
+
+// The AddContactModal component facilitates the process of adding a new contact between the current user and a recipient user. 
+// It presents a modal interface displaying recipient details including profile picture, display name, bio, and location. 
+// The component uses useState hook to manage pending state when adding a contact and checks recipient's online status using useGetUserStatus custom hook.
+// Redux integration is employed with useAppDispatch to dispatch actions for changing the current chat and creating toasts upon successful contact addition.
+// The addContact function from useAddContact custom hook handles the asynchronous operation of adding a contact, updating both users' contact lists and creating a chat document if necessary.
+// User interaction is managed through addContactBtnHandler which triggers the contact addition process and cancelBtnHandler to close the modal.
+// Conditional rendering within the footer displays an "Add Contact" button if the recipient is not already in contacts, or a message indicating already being a contact if they are.
+// Overall, the component enhances user experience by providing a clear interface for managing contacts while integrating seamlessly with application-wide state management and backend operations.
