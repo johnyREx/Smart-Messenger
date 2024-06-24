@@ -125,3 +125,11 @@ const AddContacts = () => {
 };
 
 export default AddContacts;
+
+
+// The AddContacts component serves as the interface for searching and adding new contacts to the current user's contact list.
+// It integrates with Redux to fetch user state and utilizes custom hooks like useGetUsers for fetching users based on search queries.
+// User interaction includes searching for users based on input, displaying search results, and handling pagination for fetching more users.
+// Modal functionality is implemented to display the AddContactModal component upon selecting a user from search results.
+// The component includes event handlers for search input changes, user selection for adding contacts, and navigating back to the previous content.
+// It provides a seamless user experience with real-time search updates, pagination for large datasets, and intuitive modal interactions for adding contacts.
