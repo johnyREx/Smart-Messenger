@@ -158,3 +158,11 @@ const SignUp = ({ setIsSigningIn }: SignUpProps) => {
 };
 
 export default SignUp;
+
+
+// The SignUp component enables users to create a new account by entering their email, display name, and password.
+// It uses React's useState hook to manage the state of these inputs and applies regular expressions for validation.
+// Redux is utilized for managing the application state, with useAppSelector accessing the user pending messages, and useAppDispatch dispatching sign-up actions.
+// The component includes several useEffect hooks: one for clearing user state errors when inputs change, one for showing a pending message during the sign-up process, and others for validating the inputs.
+// Upon submission, the handleSignUp function dispatches the signUp action with the user's details.
+// There is also a button to switch to the signIn component for users who already have an account.
