@@ -73,3 +73,10 @@ const useAddContact = () => {
 };
 
 export default useAddContact;
+
+
+// The useAddContact custom hook encapsulates the logic for adding a new contact between two users in the Firestore database.
+// It defines an addContact function that manages the asynchronous operation of updating both users' contact lists and creating chat documents if necessary.
+// Firestore API methods like setDoc and updateDoc are utilized to update user documents and chat documents atomically.
+// The hook ensures that contact addition operations are performed securely and efficiently, handling edge cases such as existing chat documents.
+// By abstracting contact addition logic into a reusable hook, it promotes code reusability and maintains separation of concerns within the application's data layer.
