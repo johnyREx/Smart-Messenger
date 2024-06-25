@@ -97,3 +97,11 @@ const ProfileEditForm = ({
 };
 
 export default ProfileEditForm;
+
+
+// The ProfileEditForm component allows users to edit their profile information.
+// It receives current user information as props and manages local states for display name, bio, and location.
+// The form includes input validation for the display name format and character limits for bio and location fields.
+// Users can submit changes, with UI feedback for pending state during submission.
+// Dispatches editProfile action to update profile information in Redux state and Firestore upon successful submission.
+// This component ensures user-friendly interaction for modifying profile details while maintaining data integrity.clear
