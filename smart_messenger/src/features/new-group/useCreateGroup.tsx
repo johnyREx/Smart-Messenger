@@ -107,3 +107,10 @@ const useCreateGroup = () => {
 };
 
 export default useCreateGroup;
+
+
+// The useCreateGroup custom hook handles the creation of a new group in Firestore.
+// It manages the state for pending status and error messages during the group creation process.
+// The hook generates a unique group ID, sets up the group chat document, and updates user chat documents.
+// It ensures that all selected members are added to the group and handles error scenarios appropriately.
+// This hook is designed to be used within components that facilitate group creation, such as NewGroupContainer.
