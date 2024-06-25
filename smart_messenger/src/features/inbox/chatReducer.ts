@@ -49,3 +49,10 @@ export const getChatState = (state: any) => state.chat;
 export const { changeChat, resetChat } = chatSlice.actions;
 
 export default chatSlice.reducer;
+
+
+// The chatReducer manages the state of the chat, including the chat ID, recipient information, and group status.
+// It utilizes createSlice from Redux toolkit to define the initial state and reducers for changing and resetting chat state.
+// The ChangeChat reducers updates the state based on the recipient and whether the chat is a group chat.
+// The resetChat reducers clears the current chat state.
+// Selectors are defined to access the chat state from within other components, ensuring consistent state management.
