@@ -230,3 +230,10 @@ const NewGroupContainer = () => {
 };
 
 export default NewGroupContainer;
+
+
+// The NewGroupContainer component provides a UI for creating a new group.
+// It manages the state for group members, group name, and image upload status.
+// The component allows users to add or remove members and set a group image.
+// It uses useCreateGroup to handle the creation of a new group in Firestore.
+// User interactions include selecting members, uploading an image, and submitting the group creation form.
