@@ -102,3 +102,11 @@ const ChatsContainer = () => {
 };
 
 export default ChatsContainer;
+
+
+// The ChatsContainer component manages and displays the list of user chats.
+// It utilizes useState for loading states and chat data, and useEffect for fetching chats from Firestore in real-time.
+// The component handles user interactions, such as selecting a chat, through the chatClickHandler.
+// Conditional rendering is used to display loading spinners, error messages for empty inboxes, and the list of chats.
+// It integrates with other components like ErrorMsg and LoadingSpinner for better user experience.
+// Overall, ChatsContainer ensures a responsive and interactive chat list interface within the application.
