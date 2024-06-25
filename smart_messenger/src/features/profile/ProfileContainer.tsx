@@ -153,3 +153,11 @@ const ProfileContainer = () => {
 };
 
 export default ProfileContainer;
+
+
+// The ProfileContainer component displays user profile information and allows editing if it's the current user's profile.
+// It uses useSelector hooks to retrieve current user and profile data from Redux state.
+// Users can change their profile picture and edit their display name, bio, and location.
+// Modal component is used to display the ProfileEditForm for editing user information.
+// The component includes functionality for copying email and location details to the clipboard.
+// It ensures that changes to profile information are reflected in real-time and provides a smooth user experience.
