@@ -147,3 +147,10 @@ const AddMemberModal = ({
 };
 
 export default AddMemberModal;
+
+
+// The AddMemberModal handles the addition of new members to a group.
+// It uses USeRef for managing for managing scrolling and useState for tracking the search input and member states.
+// The components fetches users from FireStore and allows for adding or removing members dynamically.
+// User interactions such as searching and scrolling are managed to load and display users effectively.
+// Conditional rendering is used to display loading spinners and error messages during user search and fetch operations.
