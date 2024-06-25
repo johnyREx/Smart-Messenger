@@ -149,3 +149,10 @@ const useSendMessage = () => {
 };
 
 export default useSendMessage;
+
+
+// The useSendMessage custom hook encapsulates the logic for sending and editing messages within a chat.
+// It provides functions for sending text messages, uploading images, and editing existing messages using Firestore transactions and document updates.
+// The hook manages state for message content, image uploads, and editing status using useRef for maintaining message references and useState for tracking message states.
+// Error handling and user feedback mechanisms ensure robust message delivery and update operations.
+// By abstracting message sending logic into a reusable hook, it promotes code reusability and separation of concerns within the application's messaging features.

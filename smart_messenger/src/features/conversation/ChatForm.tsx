@@ -157,3 +157,12 @@ const ChatForm = ({
 };
 
 export default ChatForm;
+
+
+// The ChatForm component provides an input form for composing and sending messages within a chat.
+// It includes functionality for sending text messages and uploading images using useRef for managing input references and useState for tracking message content.
+// The component utilizes custom hooks like useSendMessage for handling message sending logic and useUploadImage for image uploading functionality.
+// Modal functionality is integrated to preview and confirm sending uploaded images.
+// Event handlers manage form submission, message editing, and image uploading with user-friendly interactions.
+// Conditional rendering ensures dynamic display of UI elements based on message editing state and image upload status.
+// Overall, the ChatForm component enhances user engagement by providing seamless message composition and media sharing capabilities.

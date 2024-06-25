@@ -113,3 +113,11 @@ const ChatList = ({ chat, chatClickHandler }: ChatListProps): JSX.Element => {
 };
 
 export default ChatList;
+
+
+// The ChatList component displays a list of  chats with user or group details.
+// It utilizes the useState to manage recipient information, group status, and last message date.
+// The Components fetches user and group chat details from FireStore using onSnapshot for real-time updates.
+// User interactions, such as clicking on a chat, trigger chat selection handled via the chatClickhandler prop.
+// Conditional rendering is used to show online status, unread message count, and message previews.
+// The Component ensures a dynamic and interactive chat list within the application's inbox.

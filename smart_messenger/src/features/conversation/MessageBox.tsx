@@ -199,3 +199,11 @@ const MessageBox = ({
 };
 
 export default memo(MessageBox);
+
+
+// The MessageBox component renders individual messages within a chat conversation.
+// It receives message data as props and dynamically renders message content based on its type (text, image, etc.).
+// Conditional rendering handles different message formats and includes UI elements for message actions like editing or deleting.
+// Event handlers manage user interactions such as message editing initiation or content deletion with confirmation prompts.
+// The component utilizes useRef for managing message references and useState for tracking message state changes.
+// Overall, MessageBox enhances the chat interface by providing structured message rendering and interactive message management capabilities.

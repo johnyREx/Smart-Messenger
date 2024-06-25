@@ -64,3 +64,11 @@ const ChatHeader = ({ recipient }: ChatHeaderProps) => {
 };
 
 export default ChatHeader;
+
+
+// The ChatHeader component displays the header information for a chat conversation.
+// It receives recipient data as props and renders their profile picture, display name, and online status.
+// The component includes UI elements for additional actions like viewing user profile details or managing group chat settings.
+// Conditional rendering handles different chat types, displaying appropriate icons or options based on the conversation context.
+// User interactions such as clicking on profile pictures or icons are managed through event handlers to provide intuitive navigation and functionality.
+// By encapsulating chat header details, this component enhances the chat experience by providing relevant context and navigation options.
