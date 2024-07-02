@@ -4,8 +4,13 @@
 
 ### App Preview
 
+[App review](./public/assets/SignIn.png)
+[App review](./public/assets/Signup.png)
+[App review](./public/assets/loggedIn.png)
+
 ### SMART MESSENGER
-[App review](https://go.screenpal.com/watch/cZ1F6wVNLnw)
+
+[App review](./public/assets/review.mov)
 
 ### Features
 
@@ -19,6 +24,7 @@
 - Light / Dark mode toggler
 
 ### Upcoming Features
+
 - Voice Messaging
 - Video Calling
 - Message Reactions
@@ -38,9 +44,7 @@
 ### Setup Firebase Project
 
 1. **Create Firebase Project**
-   
 2. **Enable Authentication (Email and Google Auth)**
-   
 3. **Enable Firestore DB and Storage**
 
 4. **Create Collections**
@@ -52,6 +56,7 @@
 ### Installation Process
 
 **Step 1: Clone Repository and Install Packages**
+
 ```bash
 git clone https://github.com/johnyREX/Webstack-Portfolio-Project && cd Webstack-Portfolio-Project && npm install
 
@@ -77,4 +82,5 @@ Support
 You can support this project by leaving a star. Thank you! 😁
 
 Authors
-- [johnyREx](https://github.com/johnyREx)
+[johnyREx](https://github.com/johnyREx)
+```
