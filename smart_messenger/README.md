@@ -1,6 +1,9 @@
 # Smart Messenger
 
-## A Full Stack Chat Application using React and Firebase
+## Authors
+
+- [johnyREx](https://github.com/johnyREx)
+
 
 ### App Preview
 
@@ -80,6 +83,3 @@ npm start
 Support
 You can support this project by leaving a star. Thank you! 😁
 
-Authors
-[johnyREx](https://github.com/johnyREx)
-```
