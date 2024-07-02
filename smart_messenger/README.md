@@ -1,4 +1,4 @@
-# Smart Messenger
+Smart Messenger is a robust full-stack chat application built using React and Firebase. It offers a seamless user experience with features such as group chats, Google Sign-In, image sharing, profile editing, and more. Users can interact in real-time, manage messages, toggle between light and dark modes, and look forward to upcoming features like voice messaging, video calling, and advanced message handling capabilities. Smart Messenger is designed to be flexible, scalable, and integrate smoothly with Firebase for authentication, database storage, and more.
 
 ## Authors
 
