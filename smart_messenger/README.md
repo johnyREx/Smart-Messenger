@@ -7,10 +7,8 @@
 ![Sign In](./public/assets/SignIn.png)
 ![Sign Up](./public/assets/Signup.png)
 ![logged In](./public/assets/loggedIn.png)
-![video](./public/assets/review.mp4)
 
 ### SMART MESSENGER
-
 <video width="600" controls>
   <source src="./public/assets/review.mp4" type="video/mp4">
   Your browser does not support the video tag.
