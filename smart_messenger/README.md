@@ -84,5 +84,5 @@ Support
 You can support this project by leaving a star. Thank you! 😁
 
 Authors
-[johnyREx](https://github.com/johnyREx)
+![johnyREx](https://github.com/johnyREx)
 ```
