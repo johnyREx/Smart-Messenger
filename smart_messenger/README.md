@@ -4,14 +4,16 @@
 
 ### App Preview
 
-[App review](./public/assets/SignIn.png)
-[App review](./public/assets/Signup.png)
-[App review](./public/assets/loggedIn.png)
+![Sign In](./public/assets/SignIn.png)
+![Sign Up](./public/assets/Signup.png)
+![logged In](./public/assets/loggedIn.png)
 
 ### SMART MESSENGER
 
-[App review](./public/assets/review.mov)
-
+<video width="600" controls>
+  <source src="./public/assets/review.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ### Features
 
 - Group Chats
