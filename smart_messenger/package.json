@@ -54,13 +54,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnyREx/Webstack-Portfolio-Project.git"
+    "url": "git+https://github.com/johnyREx/Smart-Messenger.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnyREx/Webstack-Portfolio-Project/issues"
+    "url": "https://github.com/johnyREx/Smart-Messenger/issues"
   },
-  "homepage": "https://github.com/johnyREx/Webstack-Portfolio-Project#readme"
+  "homepage": "https://github.com/johnyREx/Smart-Messenger#readme"
 }
